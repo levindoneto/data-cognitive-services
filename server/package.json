@@ -1,0 +1,16 @@
+{
+  "name": "data-cognitive-services",
+  "version": "1.0.0",
+  "author": "Levindo G T Neto",
+  "description": "Web app and service for getting data from Microsoft Cognitive Services.",
+  "repository": "https://github.com/levindoneto/data-cognitive-services",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "update-deps": "npm update",
+    "prestart": "npm install",
+    "start": "node app.js"
+  }
+}
